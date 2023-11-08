@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Image sources:
+
+Duck: obtained from the API random-d.uk Copyright 2018-2019 Geoffrey Westhoff - All images belong to their rightful owner!
+
+Dog: obtained from the random dog API random.dog by @FlorianAden
+
+Bear: obtained from the placeholder bear API https://placebear.com/200/225 delivered by Otto from http://ottodestruct.com/
+
+Cat: obtained from the HTTP Cats API https://http.cat/307 by @rogeriopvl, images by Tomomi Imura (@girlie_mac)

@@ -1,0 +1,24 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Ian",
+      "highscore": 17
+    },
+    {
+      "name": "Anon",
+      "highscore": 3,
+      "id": 2
+    },
+    {
+      "name": "христина",
+      "highscore": 1,
+      "id": 3
+    },
+    {
+      "name": "Oliver",
+      "highscore": 5,
+      "id": 4
+    }
+  ]
+}

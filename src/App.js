@@ -1,25 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from  './pages/Login.js'
+import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import {useState, useEffect, useRef} from "react"
+import Home from './Home.js';
+import Gameplay from './pages/gameplay.js'
+import HighScores from './pages/highscores.js';
 
 function App() {
+
+ const playerName = useRef('')
+
+ const routes = [
+    {
+      path: "/",
+      element: <Home />,
+      children: [
+        {
+          path: '/',
+          element: <Login playerName={playerName}/>
+        }
+      ]
+    },
+    {
+      path: "/play",
+      element: <Gameplay playerName={playerName} />
+    },
+    {
+      path: "/high-scores",
+      element: <HighScores />
+    }
+  ]
+
+  const router = createBrowserRouter(routes)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <RouterProvider router={router} />
     </div>
   );
+
 }
 
 export default App;
