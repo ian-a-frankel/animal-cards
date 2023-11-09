@@ -188,7 +188,7 @@ function Gameplay({playerName}) {
 
     return (<div>
 
-        { shouldDisplay || !defeatAccepted ? <></> : <button id='new-game' onClick={handleClick}>Start Game!</button>}
+        { shouldDisplay || !defeatAccepted ? <></> : <> <button id='new-game' onClick={handleClick}>Start Game!</button><br/><h2>INSTRUCTIONS WILL APPEAR.<br>CLICK QUICK!</br></h2></>}
         
         {shouldDisplay? <h2>Click the card with {correctText} {requireText? 'written' : 'pictured'} </h2> : <></>}
         {shouldDisplay? cardsToDisplay : <></>}
