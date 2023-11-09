@@ -22,11 +22,11 @@ Enter your name.
 
 ### Gameplay
 
-You will see four cards and an instruction to click the right one based on the images or the words on the cards.
+You will see four cards and an instruction to click the right one based on the images or the words on the cards. If you click on the wrong one or you take more than 3 seconds the game is over!
 
 ### High Scores
 
-When the game is over, accept defeat and your score will be saved.
+When the game is over, accept defeat and your score will be saved. You can click to view the high scores.
 
 ###
 
